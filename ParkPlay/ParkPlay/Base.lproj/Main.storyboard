@@ -26,11 +26,11 @@
             </objects>
             <point key="canvasLocation" x="-954" y="-730"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - About-->
         <scene sceneID="Wdd-L8-SRf">
             <objects>
                 <navigationController definesPresentationContext="YES" id="wHY-h0-CgJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="bJs-aR-myW"/>
+                    <tabBarItem key="tabBarItem" title="About" image="info_sel.png" id="bJs-aR-myW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="3xb-PO-lgC">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -73,7 +73,7 @@
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gAa-0v-xUF">
                                         <rect key="frame" x="13" y="99" width="297" height="460"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mutableString>
+                                        <string key="text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -95,7 +95,7 @@
         <scene sceneID="vAn-X0-n87">
             <objects>
                 <navigationController definesPresentationContext="YES" id="kkp-NJ-mKC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Leaders" id="egj-ZF-W8y"/>
+                    <tabBarItem key="tabBarItem" title="Leaders" image="leaders_sel.png" id="egj-ZF-W8y"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9y2-Hu-4A1">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -174,7 +174,7 @@
         <scene sceneID="2u7-EI-sDY">
             <objects>
                 <navigationController definesPresentationContext="YES" id="D6O-vA-HDc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Visit" id="sSL-yU-XdH"/>
+                    <tabBarItem key="tabBarItem" title="My Visit" image="my_visit_sel.png" id="sSL-yU-XdH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iAJ-se-GYJ">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -260,7 +260,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="uPZ-Gd-c4W"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home_sel.png" id="uPZ-Gd-c4W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -268,7 +268,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg.png" width="320" height="568"/>
+        <image name="bg.png" width="320" height="480"/>
+        <image name="home_sel.png" width="80" height="50"/>
+        <image name="info_sel.png" width="80" height="50"/>
+        <image name="leaders_sel.png" width="80" height="50"/>
+        <image name="my_visit_sel.png" width="80" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

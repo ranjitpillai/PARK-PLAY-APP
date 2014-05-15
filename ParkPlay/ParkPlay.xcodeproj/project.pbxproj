@@ -24,6 +24,14 @@
 		F5A5E62A1923198700D5213C /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A5E6291923198700D5213C /* bg@2x.png */; };
 		F5F3B9251924F13600B92177 /* AboutParkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F3B9241924F13600B92177 /* AboutParkViewController.m */; };
 		F5F3B9291924FE8500B92177 /* navigationBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3B9281924FE8500B92177 /* navigationBg@2x.png */; };
+		F5F3B92C19252AE900B92177 /* MyVisitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F3B92B19252AE900B92177 /* MyVisitViewController.m */; };
+		F5F3B92F19252AF900B92177 /* LeadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F3B92E19252AF900B92177 /* LeadersViewController.m */; };
+		F5F3B93619252F9400B92177 /* home_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3B93019252F9400B92177 /* home_sel@2x.png */; };
+		F5F3B93719252F9400B92177 /* info_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3B93119252F9400B92177 /* info_sel@2x.png */; };
+		F5F3B93819252F9400B92177 /* leaders_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3B93219252F9400B92177 /* leaders_sel@2x.png */; };
+		F5F3B93919252F9400B92177 /* my_visit_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3B93319252F9400B92177 /* my_visit_sel@2x.png */; };
+		F5F3B93A19252F9400B92177 /* selector.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3B93419252F9400B92177 /* selector.png */; };
+		F5F3B93B19252F9400B92177 /* tab_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F3B93519252F9400B92177 /* tab_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +68,16 @@
 		F5F3B9231924F13600B92177 /* AboutParkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutParkViewController.h; sourceTree = "<group>"; };
 		F5F3B9241924F13600B92177 /* AboutParkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutParkViewController.m; sourceTree = "<group>"; };
 		F5F3B9281924FE8500B92177 /* navigationBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navigationBg@2x.png"; path = "ParkPlay/images/navigationBg@2x.png"; sourceTree = SOURCE_ROOT; };
+		F5F3B92A19252AE900B92177 /* MyVisitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVisitViewController.h; sourceTree = "<group>"; };
+		F5F3B92B19252AE900B92177 /* MyVisitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVisitViewController.m; sourceTree = "<group>"; };
+		F5F3B92D19252AF900B92177 /* LeadersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadersViewController.h; sourceTree = "<group>"; };
+		F5F3B92E19252AF900B92177 /* LeadersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadersViewController.m; sourceTree = "<group>"; };
+		F5F3B93019252F9400B92177 /* home_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_sel@2x.png"; path = "ParkPlay/images/home_sel@2x.png"; sourceTree = SOURCE_ROOT; };
+		F5F3B93119252F9400B92177 /* info_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info_sel@2x.png"; path = "ParkPlay/images/info_sel@2x.png"; sourceTree = SOURCE_ROOT; };
+		F5F3B93219252F9400B92177 /* leaders_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "leaders_sel@2x.png"; path = "ParkPlay/images/leaders_sel@2x.png"; sourceTree = SOURCE_ROOT; };
+		F5F3B93319252F9400B92177 /* my_visit_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "my_visit_sel@2x.png"; path = "ParkPlay/images/my_visit_sel@2x.png"; sourceTree = SOURCE_ROOT; };
+		F5F3B93419252F9400B92177 /* selector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selector.png; path = ParkPlay/images/selector.png; sourceTree = SOURCE_ROOT; };
+		F5F3B93519252F9400B92177 /* tab_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_bg.png; path = ParkPlay/images/tab_bg.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +146,10 @@
 				F505633D191AC5C700162335 /* Supporting Files */,
 				F5F3B9231924F13600B92177 /* AboutParkViewController.h */,
 				F5F3B9241924F13600B92177 /* AboutParkViewController.m */,
+				F5F3B92A19252AE900B92177 /* MyVisitViewController.h */,
+				F5F3B92B19252AE900B92177 /* MyVisitViewController.m */,
+				F5F3B92D19252AF900B92177 /* LeadersViewController.h */,
+				F5F3B92E19252AF900B92177 /* LeadersViewController.m */,
 			);
 			path = ParkPlay;
 			sourceTree = "<group>";
@@ -165,6 +187,12 @@
 		F5801BD619229726009B42DB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F5F3B93019252F9400B92177 /* home_sel@2x.png */,
+				F5F3B93119252F9400B92177 /* info_sel@2x.png */,
+				F5F3B93219252F9400B92177 /* leaders_sel@2x.png */,
+				F5F3B93319252F9400B92177 /* my_visit_sel@2x.png */,
+				F5F3B93419252F9400B92177 /* selector.png */,
+				F5F3B93519252F9400B92177 /* tab_bg.png */,
 				F5F3B9281924FE8500B92177 /* navigationBg@2x.png */,
 				F5A5E6291923198700D5213C /* bg@2x.png */,
 			);
@@ -253,6 +281,12 @@
 				F5056341191AC5C700162335 /* InfoPlist.strings in Resources */,
 				F505634A191AC5C700162335 /* Main.storyboard in Resources */,
 				F5A5E62A1923198700D5213C /* bg@2x.png in Resources */,
+				F5F3B93919252F9400B92177 /* my_visit_sel@2x.png in Resources */,
+				F5F3B93819252F9400B92177 /* leaders_sel@2x.png in Resources */,
+				F5F3B93719252F9400B92177 /* info_sel@2x.png in Resources */,
+				F5F3B93B19252F9400B92177 /* tab_bg.png in Resources */,
+				F5F3B93A19252F9400B92177 /* selector.png in Resources */,
+				F5F3B93619252F9400B92177 /* home_sel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F3B92C19252AE900B92177 /* MyVisitViewController.m in Sources */,
 				F5F3B9251924F13600B92177 /* AboutParkViewController.m in Sources */,
 				F5056347191AC5C700162335 /* ParkAppDelegate.m in Sources */,
+				F5F3B92F19252AF900B92177 /* LeadersViewController.m in Sources */,
 				F5056343191AC5C700162335 /* main.m in Sources */,
 				F505634D191AC5C700162335 /* ParkViewController.m in Sources */,
 			);
