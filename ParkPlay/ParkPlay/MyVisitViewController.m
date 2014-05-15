@@ -8,7 +8,7 @@
 
 #import "MyVisitViewController.h"
 
-@interface MyVisitViewController ()
+@interface MyVisitViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @end
 
@@ -26,6 +26,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationBg.png"]
+                                                  forBarMetrics:UIBarMetricsDefault];
+    //   self.navigationController.navigationBar.shadowImage = [UIImage imageNamed:@"navigationBg.png"];
+    self.navigationController.navigationBar.translucent = YES;
+    
+    
+
+    
     // Do any additional setup after loading the view.
 }
 
@@ -45,5 +54,27 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"VisitCell"];
+    return cell;
+}
+
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 4;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 179.0f;
+}
 
 @end

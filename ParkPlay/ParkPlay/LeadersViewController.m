@@ -8,7 +8,7 @@
 
 #import "LeadersViewController.h"
 
-@interface LeadersViewController ()
+@interface LeadersViewController () <UITableViewDelegate,UITableViewDataSource>
 
 @end
 
@@ -26,6 +26,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationBg.png"]
+                                                  forBarMetrics:UIBarMetricsDefault];
+    //   self.navigationController.navigationBar.shadowImage = [UIImage imageNamed:@"navigationBg.png"];
+    self.navigationController.navigationBar.translucent = YES;
+    
+    
+    
     // Do any additional setup after loading the view.
 }
 
@@ -46,4 +55,25 @@
 }
 */
 
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 5;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 123;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"leaderCell"];
+    return  cell;
+}
 @end
