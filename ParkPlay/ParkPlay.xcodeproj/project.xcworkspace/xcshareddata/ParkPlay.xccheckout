@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3416277C-DF9B-44DE-9A55-54169637A85E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParkPlay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>21999F99-6E9A-400D-8DBF-456E733A434F</key>
+		<string>https://github.com/ranjitpillai/PARK-PLAY-APP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParkPlay/ParkPlay.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>21999F99-6E9A-400D-8DBF-456E733A434F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ranjitpillai/PARK-PLAY-APP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>21999F99-6E9A-400D-8DBF-456E733A434F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>21999F99-6E9A-400D-8DBF-456E733A434F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PARK-PLAY-APP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
